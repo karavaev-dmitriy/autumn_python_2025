@@ -4,7 +4,7 @@
 
 def input_ab():
     a, b = map(lambda x: float(x), input('Введите коэффициент A неравное 0 и B линейного уравнения A·x + B: ').split())
-    print(a/b)  if a != 0 else input_ab()
+    print(-b/a)  if a != 0 else input_ab()
 
 
 input_ab()

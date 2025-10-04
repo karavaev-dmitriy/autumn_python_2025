@@ -5,9 +5,9 @@
 
 
 
-x = float(input('Введите число:'))
+x = int(input('Введите число:'))
 
-print(True) if x % 2 == 0 else print(False)
+print(True if x % 2 == 0 else False)
 
 
 

@@ -25,10 +25,6 @@ users = [{'login': 'Piter', 'age': 23, 'group': "admin"},
 
 
 
-first_letter = [x2 for x2 in users if x2['group'].lower() == 'guest'.lower() ]
-for x2 in first_letter: print(x2)
-
-
 print('''
  Сортировка:
     1. По возрасту

@@ -15,7 +15,6 @@ for key in range(1, 100):
     for x in ln:
         if ord(x) in aa:
             str_ += chr(aa[(aa.index(ord(x)) + key) % 26])
-            # print(x, ord(x), aa.index(ord(x)), aa.index(ord(x)) + 1, chr(aa[(aa.index(ord(x)) + 1) % 26]))
 
         else: str_ += x
 

@@ -27,9 +27,9 @@ str_ = ''
 for key, ln in enumerate(file_list, 1):
     for x in ln:
         if ord(x) in AA:
-            str_ += chr(AA[(AA.index(ord(x)) + key) % 33] )
+            str_ += chr(AA[(AA.index(ord(x)) - key) % 33] )
         elif ord(x) in aa:
-            str_ += chr(aa[(aa.index(ord(x)) + key) % 33])
+            str_ += chr(aa[(aa.index(ord(x)) - key) % 33])
 
         else: str_ += x
 
@@ -37,6 +37,8 @@ print(str_)
 f.writelines('\n')
 f.writelines('\n')
 f.writelines(str_)
+
+
 
 
 

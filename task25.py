@@ -38,29 +38,6 @@ f.writelines('\n')
 f.writelines('\n')
 f.writelines(str_)
 
-# for key, x in enumerate(list(file_list[0])):
-#     if ord(x) in AA:
-#         print(ord(x), x)
-#
-#         str_ += chr(ord(x) + 1) #if (ord(x) + 1) > 1071 else chr(ord(x) - 31)
-#
-#     elif ord(x) in aa:
-#         print(ord(x), x)
-#
-#         str_ += chr(ord(x) + 1) #if (ord(x) + 1) > 1103 else chr(ord(x) - 31)
-#
-#     else: str_ += x
-
-
-# print(str_)
-
-# print(file_list)
-#
-# print(ord('А'))
-# print(ord('Я'))
-# print(ord('а'))
-# print(ord('я'))
-
 
 
 

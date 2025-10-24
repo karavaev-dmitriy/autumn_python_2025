@@ -8,14 +8,16 @@ colors = 'белый', 'черный', 'зеленый', 'красный', 'же
 
 animals = 'крысы', 'коровы', 'тигра', 'зайца', 'дракона', 'змеи', 'лошади', 'овцы', 'обезьяны', 'курицы', 'собаки', 'свиньи'
 
+
 yer =  int(input('Введите год: '))
 
-animal = (yer - 1900) % 12
-color_list = [x
-           for color in colors
-        for x in [color] * 2] * 12
+animal = animals[(yer - 4) % 12]
+col = [x for x in colors for y in range(2)]
+color = col[yer % 10]
 
-print(animals[animal], color_list[yer - 1900])
+print(animal)
+print(color)
+
 
 
 

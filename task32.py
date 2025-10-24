@@ -1,0 +1,28 @@
+#todo: Вы пишете скрипт для очистки временных файлов.
+# Создайте список полных путей к временным файлам (с расширениями .tmp, .bak),
+# добавив к каждому путь "/tmp/".
+files = [
+    "document.pdf",
+    "temp_backup.tmp",
+    "image.jpg",
+    "cache.tmp",
+    "report.docx",
+    "old_data.bak"
+]
+
+# результат:
+['/tmp/temp_backup.tmp', '/tmp/cache.tmp', '/tmp/old_data.bak']
+
+s = ['.tmp', '.bak']
+
+res1 = ['/tmp/' + x1 for x1 in files for k in s if k in x1]
+
+
+print(res1)
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 # todo: Перепишите игру "Поле чудес" на классах.
-import random
-import uuid
-import datetime
+# import random
+# import uuid
+# import datetime
 # from lesson_5.code.db import DICT_DEFENITION_WORD
 #
 #
